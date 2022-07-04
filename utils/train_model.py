@@ -14,6 +14,7 @@ import pandas as pd
 import pickle
 from sklearn.linear_model import LinearRegression
 
+
 # Fetch training data and preprocess for modeling
 train = pd.read_csv('./data/df_train.csv')
 
